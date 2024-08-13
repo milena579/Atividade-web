@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+}
+
+nav .btn-link{
+    color: black;
+}
+
+main{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    color: white;
+    background-color: rgb(63, 63, 94);
+    padding: 10px;
+    width: 100%;
+}
+

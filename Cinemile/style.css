@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300..700&display=swap');
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: "Teko", sans-serif;
+    padding: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    margin: 10px;
+}
+.filmes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+}
+.titulo-filme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.tabela{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.tabela table {
+   border: 1px solid white;
+   font-size: 30px;
+}
+
+.tabela td,th{
+    padding: 10px;
+}
+
+
+img{
+    height: 500px;
+}
